@@ -75,8 +75,10 @@ body
 .toggle.active span::before
 {
     transform: rotate(225deg);
+    top: 24px;
 }
 .toggle.active span::after
 {
-    transform: rotate(225deg);
+    transform: rotate(135deg);
+    bottom: 24px;
 }
