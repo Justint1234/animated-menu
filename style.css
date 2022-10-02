@@ -72,7 +72,11 @@ body
     background: #ff216d;
     transition: 0.5s;
 }
-.toggle.active:span::before
+.toggle.active span::before
 {
-    
+    transform: rotate(225deg);
+}
+.toggle.active span::after
+{
+    transform: rotate(225deg);
 }
